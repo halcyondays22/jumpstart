@@ -14,8 +14,7 @@ h2 {
     font-size: 1.7rem;
     font-weight: bold;
     color: #399bd1;
-    margin-bottom: 1.43rem;
-}
+}    
 
 h3 {
     font-size: 1.3rem;
@@ -88,6 +87,7 @@ h3 {
     background-image: url("../images/jumbotron-bike.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* Featured Project Styles */
@@ -101,6 +101,9 @@ h3 {
     color: #399bd1;
 }
 
+.featured_header h2 {
+    margin-bottom: 1.43rem;
+}
 
 /* Projects Section */
 #project3 {
@@ -113,6 +116,48 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     padding-top: 5.2rem;
+    height: auto;
+}
+
+.footer h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.footer p {
+    width: 42rem;
+    margin-top: 1.4rem;
+    text-align: center;
+}
+
+/* Phone Media Query */
+
+@media only screen 
+    and (min-width: 375px) 
+    and (max-width: 667px) { 
+
+
+
+.jumbotron h1 {
+    margin-top: 11.85rem;
+    font-family: Monoton;
+    font-size: 5.7rem;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.project_title p {
+    max-height: 150px;
+}
+
+.footer h1 {
+    text-align: center;
+}
+
+.footer p {
+    width: auto;
+}
+
+
 }
