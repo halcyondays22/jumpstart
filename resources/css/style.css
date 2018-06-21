@@ -55,7 +55,7 @@ h3 {
 /* Jumbotron Styles */
 .jumbotron {
     color: white;
-    max-height: 44rem;
+    text-align: center;
 }
 
 .jumbotron h1 {
@@ -65,18 +65,15 @@ h3 {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-.jumbotron_text {
-    padding-top: 11.85rem;
-    padding-bottom: 11.85rem;
-    width: 51.3rem;
-    text-align: center;
-    margin: auto;
+.container_fluid {
+    max-width: 53.1rem;
 }
 
-.vertical_center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.relative-container {
+    position: relative;
+    width: 100%;
+    top: -16rem;
+    text-align: center;
 }
 
 #jump_in {
